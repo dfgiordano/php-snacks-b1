@@ -1,33 +1,32 @@
+<?php
 /* Creiamo un array contenente le partite di basket di un’ipotetica tappa del calendario. Ogni array avrà una squadra di casa e una squadra ospite, punti fatti dalla squadra di casa e punti fatti dalla squadra ospite. Stampiamo a schermo tutte le partite con questo schema.
 Olimpia Milano - Cantù | 55-60 */
-
-<?php
-$matches = [
-    [
-        "home" => "Utah Jazz",
-        "away" => "LA Clippers",
-        "home_points" => 70,
-        "away_points" => 90
-    ],
-    [
-        "home" => "LA Lakers",
-        "away" => "Milwakee Bucks",
-        "home_points" => 85,
-        "away_points" => 80
-    ],
-    [
-        "home" => "Phoenix Suns",
-        "away" => "Chicago Bulls",
-        "home_points" => 68,
-        "away_points" => 100
-    ],
-    [
-        "home" => "Atlanta",
-        "away" => "Philadelphia 76ers",
-        "home_points" => 104,
-        "away_points" => 100
-    ]
-];
+    $matches = [
+        [
+            "home" => "Utah Jazz",
+            "away" => "LA Clippers",
+            "home_points" => 70,
+            "away_points" => 90
+        ],
+        [
+            "home" => "LA Lakers",
+            "away" => "Milwakee Bucks",
+            "home_points" => 85,
+            "away_points" => 80
+        ],
+        [
+            "home" => "Phoenix Suns",
+            "away" => "Chicago Bulls",
+            "home_points" => 68,
+            "away_points" => 100
+        ],
+        [
+            "home" => "Atlanta",
+            "away" => "Philadelphia 76ers",
+            "home_points" => 104,
+            "away_points" => 100
+        ]
+    ];
 ?>
 
 <!DOCTYPE html>
